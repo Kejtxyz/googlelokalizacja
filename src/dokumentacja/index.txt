@@ -3,6 +3,8 @@ Tabelka z likalizaja googel
 do wklejeni a w codepen i rozwoju
 potrzebny kod api google
 wspolrzedne punktow na mapie
-Opcja szukaj po wprowadzonej nazwie do dalszego rozwoju
+Podzail na grupy likalizacji, w js sa podane wspolrzedne w csv
+pole wybierz po typie,przelacza grupy
+Opcja szukaj w wyswietlnej grupie
 
 **/
