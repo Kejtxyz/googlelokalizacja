@@ -1,40 +1,101 @@
-
 // Json array for places
 var markers = {
     'group-1': [
             {
-            "title": 'Alibaug',
+            "title": 'Poznań',
             "lat": '18.641400',
             "lng": '72.872200',
-            "description": 'Alibaug is a coastal town and a municipal council in Raigad District in the Konkan region of Maharashtra, India.'
+            "description": 'Miasto Poznań'
         },
         {
-            "title": 'Aurangabad',
+            "title": 'Centrum',
             "lat": '19.879700',
             "lng": '75.335300',
-            "description": 'Aurangabad'
+            "description": 'Centrum'
         },
         {
-            "title": 'Dombivli',
+            "title": 'Zachód',
             "lat": '19.218400',
             "lng": '73.086700',
-            "description": 'Dombivli'
+            "description": 'Zachód'
         },
         {
-            "title": 'Lonavla',
+            "title": 'Wschód',
             "lat": '18.750000',
             "lng": '73.416700',
             "description": 'Lonavla'
         },
         {
-            "title": 'Malegaon',
+            "title": 'Północ',
             "lat": '20.550500',
             "lng": '74.530900',
             "description": 'Malegaon'
         }
     ],
-
-    'group-2': [
+  'group-3': [
+            {
+            "title": 'Poznań',
+            "lat": '18.641400',
+            "lng": '72.872200',
+            "description": 'Miasto Poznań'
+        },
+        {
+            "title": 'Centrum',
+            "lat": '19.879700',
+            "lng": '75.335300',
+            "description": 'Centrum'
+        },
+        {
+            "title": 'Zachód',
+            "lat": '19.218400',
+            "lng": '73.086700',
+            "description": 'Zachód'
+        },
+        {
+            "title": 'Wschód',
+            "lat": '18.750000',
+            "lng": '73.416700',
+            "description": 'Lonavla'
+        },
+        {
+            "title": 'Północ',
+            "lat": '20.550500',
+            "lng": '74.530900',
+            "description": 'Malegaon'
+        }
+    ],  'group-4': [
+            {
+            "title": 'Poznań',
+            "lat": '18.641400',
+            "lng": '72.872200',
+            "description": 'Miasto Poznań'
+        },
+        {
+            "title": 'Centrum',
+            "lat": '19.879700',
+            "lng": '75.335300',
+            "description": 'Centrum'
+        },
+        {
+            "title": 'Zachód',
+            "lat": '19.218400',
+            "lng": '73.086700',
+            "description": 'Zachód'
+        },
+        {
+            "title": 'Wschód',
+            "lat": '18.750000',
+            "lng": '73.416700',
+            "description": 'Lonavla'
+        },
+        {
+            "title": 'Północ',
+            "lat": '20.550500',
+            "lng": '74.530900',
+            "description": 'Malegaon'
+        }
+    ],
+    'group-3': [
         {
             "title": 'Mumbai',
             "lat": '18.964700',
@@ -161,11 +222,12 @@ var markers = {
 
 function myFunction() {
   // Declare variables
-  var input, filter, ul, li, a, i, txtValue;
+  var input, filter, ul, li, a, i,p, txtValue;
   input = document.getElementById('myInput');
   filter = input.value.toUpperCase();
   ul = document.getElementById("myUL");
   li = ul.getElementsByTagName('li');
+
 
   // Loop through all list items, and hide those who don't match the search query
   for (i = 0; i < li.length; i++) {
