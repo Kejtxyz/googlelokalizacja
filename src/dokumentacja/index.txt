@@ -6,5 +6,5 @@ wspolrzedne punktow na mapie
 Podzail na grupy likalizacji, w js sa podane wspolrzedne w csv
 pole wybierz po typie,przelacza grupy
 Opcja szukaj w wyswietlnej grupie
-
+https://codepen.io/Ahmed_Gebril/pen/BPQNxa
 **/
